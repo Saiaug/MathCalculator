@@ -1,4 +1,4 @@
-AddSingleton() - As the name implies, AddSingleton() method creates a Singleton service. A Singleton service is created when it is first requested. This same instance is then used by all the subsequent requests. So in general, a Singleton service is created only one time per application and that single instance is used throughout the application life time.
+AddSingleton() - As the name implies, AddSingleton() method creates a Singleton service. A Singleton service is created when it is first requested whether it is in the scope of same http request or across different http requests. This same instance is then used by all the subsequent requests. So in general, a Singleton service is created only one time per application and that single instance is used throughout the application life time.
 
 AddTransient() - This method creates a Transient service. A new instance of a Transient service is created each time it is requested.
 
